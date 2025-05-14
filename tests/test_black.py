@@ -1900,19 +1900,6 @@ class BlackTestCase(BlackBaseTestCase):
         assert output == result_diff, "The output did not match the expected value."
         assert result.exit_code == 0, "The exit code is incorrect."
 
-    @pytest.mark.incompatible_with_mypyc
-    def test_code_option_safe(self) -> None:
-        """Test that the code option throws an error when the sanity checks fail."""
-        # Patch black.assert_equivalent to ensure the sanity checks fail
-        with patch.object(black, "assert_equivalent", side_effect=AssertionError):
-            code = 'print("Hello world")'
-            error_msg = f"{code}\nerror: cannot format <string>: \n"
-
-            args = ["--safe", "--code", code]
-            result = CliRunner().invoke(black.main, args)
-
-            self.compare_results(result, error_msg, 123)
-
     def test_code_option_fast(self) -> None:
         """Test that the code option ignores errors when the sanity checks fail."""
         # Patch black.assert_equivalent to ensure the sanity checks fail

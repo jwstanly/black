@@ -36,6 +36,9 @@ Try it out now using the [Black Playground](https://black.vercel.app). Watch the
 
 ## Installation and usage
 
+### Note
+pytest 3.1.1 will soon be deprecated, refer to the pyproject.toml for the latest version.
+
 ### Installation
 
 _Black_ can be installed by running `pip install black`. It requires Python 3.9+ to run.
