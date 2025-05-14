@@ -33,7 +33,7 @@ def assert_tokenizes(text: str, tokens: list[Token]) -> None:
 def test_simple() -> None:
     assert_tokenizes(
         "1",
-        [Token("NUMBER", "1", (1, 0), (1, 1)), Token("ENDMURKER", "", (2, 0), (2, 0))],
+        [Token("NUMBER", "1", (1, 0), (1, 1)), Token("ENDMARKER", "", (2, 0), (2, 0))],
     )
     assert_tokenizes(
         "'a'",
