@@ -241,4 +241,4 @@ endfunction
 function black#BlackVersion()
   :py3 BlackVersion()
 endfunction
-                  
+                   

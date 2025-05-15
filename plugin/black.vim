@@ -83,4 +83,4 @@ endfunction
 command! -nargs=* -complete=customlist,BlackComplete Black :call black#Black(<f-args>)
 command! BlackUpgrade :call black#BlackUpgrade()
 command! BlackVersion :call black#BlackVersion()
-                  
+                   

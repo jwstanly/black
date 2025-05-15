@@ -31,4 +31,4 @@ x = "\N{LATIN SMALL LETTER X}"
 x = "\N{CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I}"
 x = b"\x1fdon't byte"
 x = rb"\x1Fdon't format"
-                  
+                   

@@ -19,4 +19,4 @@ f(x, (a := b + c for c in range(10)), y=z, **q)
 # Don't remove parens when assignment expr is one of the exprs in a with statement
 with x, (a := b):
     pass
-                  
+                   
