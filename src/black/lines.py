@@ -1073,4 +1073,4 @@ def line_to_string(line: Line) -> str:
     WARNING: This is known to be computationally expensive.
     """
     return str(line).strip("\n")
-            
+             
