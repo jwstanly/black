@@ -424,4 +424,4 @@ def wrap_stream_for_windows(
     else:
         # Set `strip=False` to avoid needing to modify test_express_diff_with_color.
         return wrap_stream(f, convert=None, strip=False, autoreset=False, wrap=True)
-                       
+                        

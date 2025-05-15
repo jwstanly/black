@@ -193,4 +193,4 @@ def f4(*args: *b, arg1: int = 2):
 
 
 f4.__annotations__
-                       
+                        

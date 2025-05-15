@@ -25,4 +25,4 @@ def restrict_to_this_line(arg1,
 def restrict_to_this_line(arg1, arg2, arg3):
     print  ( "This should not be formatted." )
     print  ( "Note that in the second pass, the original line range 9-11 will cover these print lines.")
-                       
+                        

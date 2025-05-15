@@ -398,4 +398,4 @@ class Parser:
             else:
                 self.rootnode = newnode
                 self.rootnode.used_names = self.used_names
-                       
+                        
