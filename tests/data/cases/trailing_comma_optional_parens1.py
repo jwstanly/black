@@ -61,4 +61,4 @@ class A:
             3,
         ) < self.connection.mysql_version < (10, 5, 2):
             pass
-                      
+                       

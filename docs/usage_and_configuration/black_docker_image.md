@@ -51,4 +51,4 @@ $ docker run --rm --volume $(pwd):/src --workdir /src pyfound/black:latest_relea
 _Remark_: besides [regular _Black_ exit codes](./the_basics.md) returned by `--check`
 option, [Docker exit codes](https://docs.docker.com/engine/reference/run/#exit-status)
 should also be considered.
-                      
+                       

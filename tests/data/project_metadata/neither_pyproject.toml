@@ -4,4 +4,4 @@ version = "1.0.0"
 
 [tool.black]
 line-length = 79
-                      
+                       

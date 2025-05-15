@@ -161,4 +161,4 @@ def both_magic_mixed1[T, B](a: T, b: T) -> T:
 
 def both_magic_mixed2[T, B](a: T, b: T) -> T:
     return a
-                      
+                       

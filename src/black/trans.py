@@ -2507,4 +2507,4 @@ def is_valid_index_factory(seq: Sequence[Any]) -> Callable[[int], bool]:
         return 0 <= idx < len(seq)
 
     return is_valid_index
-                      
+                       

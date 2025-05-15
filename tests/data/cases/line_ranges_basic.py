@@ -105,4 +105,4 @@ async  def  test_async_unformatted(  ):    # Trailing comment with extra leading
         await  asyncio.sleep( 1 )
         async  with  some_context(  unformatted  ):
             print(  "unformatted"  )
-                      
+                       

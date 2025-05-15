@@ -59,4 +59,4 @@ def normalize_numeric_literal(leaf: Leaf) -> None:
     else:
         text = format_float_or_int_string(text)
     leaf.value = text
-                      
+                       
