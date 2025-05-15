@@ -52,4 +52,4 @@ if __name__ == "__main__":
     ) as fd:
         source_version_control = fd.read()
     main(changes, source_version_control)
-        
+         
