@@ -26,4 +26,4 @@ async for x in (
     *loooooooooooooooooooooooooooooooooooooooooooooooong,
 ):
     print(x)
-               
+                

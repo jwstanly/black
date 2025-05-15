@@ -34,4 +34,4 @@ def test_ipynb_diff_with_no_change_dir(tmp_path: pathlib.Path) -> None:
         'You can fix this by running ``pip install "black[jupyter]"``\n'
     )
     assert expected_output in result.output
-               
+                

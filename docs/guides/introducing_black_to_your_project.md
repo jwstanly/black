@@ -50,4 +50,4 @@ with a reformatting commit on those platforms. (If you'd like this feature, ther
 open issue for [GitLab](https://gitlab.com/gitlab-org/gitlab/-/issues/31423)).
 [GitHub supports `.git-blame-ignore-revs`](https://docs.github.com/en/repositories/working-with-files/using-files/viewing-a-file#ignore-commits-in-the-blame-view)
 by default in blame views however.
-               
+                
