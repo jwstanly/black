@@ -120,3 +120,4 @@ def dump_to_file(*output: str, ensure_final_newline: bool = True) -> str:
             if ensure_final_newline and lines and lines[-1] != "\n":
                 f.write("\n")
     return f.name
+ 

@@ -6,3 +6,4 @@ def fn(*args: *tuple[*A, B]) -> None:
 
 
 fn.__annotations__
+ 

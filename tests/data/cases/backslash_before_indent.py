@@ -22,3 +22,4 @@ class AnotherCase:
     \
     Docstring
     """
+ 

@@ -47,3 +47,4 @@ def   myfunc(  ):  # This will not be reformatted.
 
 def myfunc():  # This will be reformatted.
     print({"this will be reformatted"})
+ 

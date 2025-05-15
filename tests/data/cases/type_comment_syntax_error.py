@@ -9,3 +9,4 @@ def foo(
     x,
 ):
     pass
+ 

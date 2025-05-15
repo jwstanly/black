@@ -164,3 +164,4 @@ def top_level(
 
     def nested(x: int) -> int:
         pass
+ 

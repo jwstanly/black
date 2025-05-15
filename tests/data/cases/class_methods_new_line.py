@@ -268,3 +268,4 @@ class ClassWithDecoInitAndVarsAndDocstringWithInner2:
     @deco
     def __init__(self):
         pass
+ 

@@ -186,3 +186,4 @@ def f(
     ),
     another_option: bool = False,
 ): ...
+ 

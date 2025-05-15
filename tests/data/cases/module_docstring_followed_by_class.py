@@ -8,3 +8,4 @@ class MyClass:
 
 class MyClass:
     pass
+ 

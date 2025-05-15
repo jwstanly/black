@@ -25,3 +25,4 @@ async def func() -> int:
 
 async for item in async_iter:
     pass
+ 

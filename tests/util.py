@@ -353,3 +353,4 @@ def change_directory(path: Path) -> Iterator[None]:
         yield
     finally:
         os.chdir(previous_dir)
+ 

@@ -547,3 +547,4 @@ def test_unable_to_replace_magics(monkeypatch: MonkeyPatch) -> None:
         AssertionError, match="Black was not able to replace IPython magic"
     ):
         format_cell(src, fast=True, mode=JUPYTER_MODE)
+ 

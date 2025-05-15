@@ -24,3 +24,4 @@ def sigh():
 
 for (x := 3, y := 4) in y:
     pass
+ 

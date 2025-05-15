@@ -4,3 +4,4 @@ def foo():
 
 # comment 1  # fmt: skip
 # comment 2
+ 

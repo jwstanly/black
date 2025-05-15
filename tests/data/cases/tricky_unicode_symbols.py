@@ -7,3 +7,4 @@ Q̇_per_meter = 4
 
 A᧚ = 3
 A፩ = 8
+ 

@@ -16,3 +16,4 @@ match invalid_case:
 match something:
     case bla():
         pass
+ 

@@ -1076,3 +1076,4 @@ def has_sibling_with_type(node: LN, type: int) -> bool:
         sibling = sibling.next_sibling
 
     return False
+ 

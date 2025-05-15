@@ -9,3 +9,4 @@ RUN apt-get update \
 
 COPY gallery.py /
 ENTRYPOINT ["python", "/gallery.py"]
+ 

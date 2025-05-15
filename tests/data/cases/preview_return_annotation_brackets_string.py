@@ -22,3 +22,4 @@ def frobnicate(
     a,
 ) -> "ThisIsTrulyUnreasonablyExtremelyLongClassName | list[ThisIsTrulyUnreasonablyExtremelyLongClassName]":
     pass
+ 
