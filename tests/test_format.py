@@ -91,4 +91,4 @@ def test_patma_invalid() -> None:
     exc_info.match(
         "Cannot parse for target version Python 3.10: 10:11:     case a := b:"
     )
-    
+     

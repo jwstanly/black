@@ -258,4 +258,4 @@ if __name__ == "__main__":  # testing
 
     for tok in token_iterator:
         printtoken(*tok)
-    
+     

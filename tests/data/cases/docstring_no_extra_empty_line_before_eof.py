@@ -2,4 +2,4 @@
 # It doesn't add extra blank lines.
 class ClassWithDocstring:
     """A docstring."""
-    
+     

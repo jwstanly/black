@@ -116,4 +116,4 @@ call_to_some_function_asdf(
 )
 
 aaaaaaaaaaaaa, bbbbbbbbb = map(list, map(itertools.chain.from_iterable, zip(*items)))  # type: ignore[arg-type]
-    
+     

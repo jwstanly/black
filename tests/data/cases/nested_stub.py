@@ -67,4 +67,4 @@ class TopLevel:
         foo: int
 
     field = 1
-    
+     

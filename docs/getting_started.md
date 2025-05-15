@@ -48,4 +48,4 @@ _Black_ by reading
 Alternatively, you can check out the
 [Introducing _Black_ to your project](./guides/introducing_black_to_your_project.md)
 guide.
-    
+     
