@@ -62,4 +62,4 @@ def magic[
 
 def weird_syntax[T: lambda: 42, U: a or b]():
     pass
-       
+        
