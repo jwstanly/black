@@ -30,4 +30,4 @@ class DebugVisitor(Visitor[T]):
         """
         v: DebugVisitor[None] = DebugVisitor()
         list(v.visit(lib2to3_parse(code)))
-      
+       

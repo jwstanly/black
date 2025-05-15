@@ -217,4 +217,4 @@ def foo(a, b) -> tuple[
     int,
 ]:
     return 2
-      
+       
