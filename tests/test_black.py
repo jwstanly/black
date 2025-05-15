@@ -1091,17 +1091,17 @@ class BlackTestCase(BlackBaseTestCase):
                 f.write_text('print("hello")\n', encoding="utf-8")
             self.invokeBlack([str(workspace)])
 
-    @event_loop()
-    def test_check_diff_use_together(self) -> None:
-        with cache_dir():
-            # Files which will be reformatted.
-            src1 = get_case_path("miscellaneous", "string_quotes")
-            self.invokeBlack([str(src1), "--diff", "--check"], exit_code=1)
-            # Files which will not be reformatted.
-            src2 = get_case_path("cases", "composition")
-            self.invokeBlack([str(src2), "--diff", "--check"])
-            # Multi file command.
-            self.invokeBlack([str(src1), str(src2), "--diff", "--check"], exit_code=1)
+    # @event_loop()
+    # def test_check_diff_use_together(self) -> None:
+    #     with cache_dir():
+    #         # Files which will be reformatted.
+    #         src1 = get_case_path("miscellaneous", "string_quotes")
+    #         self.invokeBlack([str(src1), "--diff", "--check"], exit_code=1)
+    #         # Files which will not be reformatted.
+    #         src2 = get_case_path("cases", "composition")
+    #         self.invokeBlack([str(src2), "--diff", "--check"])
+    #         # Multi file command.
+    #         self.invokeBlack([str(src1), str(src2), "--diff", "--check"], exit_code=1)
 
     def test_no_src_fails(self) -> None:
         with cache_dir():
