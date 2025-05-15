@@ -476,4 +476,4 @@ WIDTH_TABLE: Final[list[tuple[int, int, int]]] = [
     (196608, 262141, 2),
     (917760, 917999, 0),
 ]
-         
+          

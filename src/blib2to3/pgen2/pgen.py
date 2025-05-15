@@ -417,4 +417,4 @@ class DFAState:
 def generate_grammar(filename: Path = "Grammar.txt") -> PgenGrammar:
     p = ParserGenerator(filename)
     return p.make_grammar()
-         
+          

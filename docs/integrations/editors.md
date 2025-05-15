@@ -433,4 +433,4 @@ hook global WinSetOption filetype=python %{
 ## Thonny
 
 Use [Thonny-black-formatter](https://pypi.org/project/thonny-black-formatter/).
-         
+          

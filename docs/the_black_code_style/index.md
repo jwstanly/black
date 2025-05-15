@@ -52,4 +52,4 @@ Documentation for both the current and future styles can be found:
 
 - {doc}`current_style`
 - {doc}`future_style`
-         
+          
