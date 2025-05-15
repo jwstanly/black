@@ -259,4 +259,4 @@ fstring: FSTRING_START fstring_middle* FSTRING_END
 fstring_middle: fstring_replacement_field | FSTRING_MIDDLE
 fstring_replacement_field: '{' (yield_expr | testlist_star_expr) ['='] [ "!" NAME ] [ ':' fstring_format_spec* ] '}'
 fstring_format_spec: FSTRING_MIDDLE | fstring_replacement_field
-                     
+                      

@@ -453,4 +453,4 @@ def _contains_fmt_skip_comment(comment_line: str, mode: Mode) -> bool:
     ]
 
     return any(comment in FMT_SKIP for comment in semantic_comment_blocks)
-                     
+                      
