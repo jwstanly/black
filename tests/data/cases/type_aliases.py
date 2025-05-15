@@ -28,4 +28,4 @@ class X:
 
 type = aliased
 print(type(42))
- 
+  

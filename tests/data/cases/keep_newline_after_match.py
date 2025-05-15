@@ -38,4 +38,4 @@ def http_status(status):
 
         case 404:
 
-            return "Not found" 
+            return "Not found"  

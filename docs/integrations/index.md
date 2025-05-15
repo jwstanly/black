@@ -29,4 +29,4 @@ will still emit messages on stderr but that shouldn't affect your use case.
 
 This can be used for example with PyCharm's or IntelliJ's
 [File Watchers](https://www.jetbrains.com/help/pycharm/file-watchers.html).
- 
+  

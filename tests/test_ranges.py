@@ -245,4 +245,4 @@ def test_sanitize(
     3.   arg2, arg3):
     4.   pass"""
     assert sanitized == sanitized_lines(lines, source_no_trailing_nl)
- 
+  

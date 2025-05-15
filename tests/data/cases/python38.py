@@ -37,4 +37,4 @@ a: Tuple[int, ...] = b, *c, d
 
 def t():
     a: str = yield "a"
- 
+  

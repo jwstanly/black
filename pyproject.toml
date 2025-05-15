@@ -242,4 +242,4 @@ ignore_missing_imports = true
 [[tool.mypy.overrides]]
 module = ["tests.data.*"]
 ignore_errors = true
- 
+  

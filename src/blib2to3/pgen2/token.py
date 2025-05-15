@@ -90,4 +90,4 @@ def ISNONTERMINAL(x: int) -> bool:
 
 def ISEOF(x: int) -> bool:
     return x == ENDMARKER
- 
+  

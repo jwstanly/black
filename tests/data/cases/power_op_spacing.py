@@ -147,4 +147,4 @@ if hasattr(view, "sum_of_weights"):
 return np.divide(
     where=view.sum_of_weights_of_weight_long**2 > view.sum_of_weights_squared,  # type: ignore
 )
- 
+  
