@@ -506,4 +506,4 @@ class MagicFinder(ast.NodeVisitor):
                 OffsetAndMagic(node.value.col_offset, src)
             )
         self.generic_visit(node)
-              
+               

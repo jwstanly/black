@@ -87,4 +87,4 @@ def set_position(x, y, value):
 
 ###
 
-0o12              
+0o12               

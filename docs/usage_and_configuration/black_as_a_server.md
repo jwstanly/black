@@ -93,4 +93,4 @@ Apart from the above, `blackd` can produce the following response codes:
 
 The response headers include a `X-Black-Version` header containing the version of
 _Black_.
-              
+               
