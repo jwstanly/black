@@ -11,4 +11,4 @@ class A:
         for line in range(10):
             if True:
                 pass  # fmt: skip
-                
+                 

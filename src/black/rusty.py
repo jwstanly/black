@@ -26,4 +26,4 @@ class Err(Generic[E]):
 
 
 Result = Union[Ok[T], Err[E]]
-                
+                 

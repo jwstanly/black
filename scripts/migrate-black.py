@@ -94,4 +94,4 @@ if __name__ == "__main__":
     logger.addHandler(logging.StreamHandler(args.logfile))
     logger.setLevel(logging.INFO)
     sys.exit(blackify(args.base_branch, args.black_command, logger))
-                
+                 

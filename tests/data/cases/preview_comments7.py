@@ -306,4 +306,4 @@ square = Square(4)  # type: Optional[Square]
         "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"  # aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
     ),
 ]
-                
+                 
