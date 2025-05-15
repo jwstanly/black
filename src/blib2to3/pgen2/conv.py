@@ -254,4 +254,4 @@ class Converter(grammar.Grammar):
                 self.keywords[value] = ilabel
             elif value is None:
                 self.tokens[type] = ilabel
-                    
+                     

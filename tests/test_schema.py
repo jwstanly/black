@@ -15,4 +15,4 @@ def test_schema_entrypoint() -> None:
     schema = black_fn()
     assert schema == black_fn("black")
     assert schema["properties"]["line-length"]["type"] == "integer"
-                    
+                     

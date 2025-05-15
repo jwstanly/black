@@ -218,4 +218,4 @@ class BlackDTestCase(AioHTTPTestCase):
         response = await self.client.post("/", data="1")
         self.assertEqual(await response.text(), "1\n")
         self.assertEqual(response.status, 200)
-                    
+                     
