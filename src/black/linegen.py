@@ -1851,4 +1851,4 @@ def run_transformer(
     if all(is_line_short_enough(ln, mode=mode) for ln in second_opinion):
         result = second_opinion
     return result
-          
+           

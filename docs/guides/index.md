@@ -14,4 +14,4 @@ topic specific guides available:
 
 - {doc}`introducing_black_to_your_project`
 - {doc}`using_black_with_other_tools`
-          
+           

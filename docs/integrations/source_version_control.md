@@ -51,4 +51,4 @@ The `black-jupyter` hook became available in version 21.8b0.
 
 [pre-commit-mutable-rev]:
   https://pre-commit.com/#using-the-latest-version-for-a-repository
-          
+           

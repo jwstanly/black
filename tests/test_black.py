@@ -3027,4 +3027,4 @@ def tracefunc(
     if "black/__init__.py" in filename:
         print(f"{' ' * stack}{lineno}:{funcname}")
     return tracefunc
-          
+           
