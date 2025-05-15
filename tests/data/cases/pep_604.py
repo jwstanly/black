@@ -23,4 +23,4 @@ def some_very_long_name_function() -> (
     | None
 ):
     pass
-                   
+                    

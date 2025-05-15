@@ -42,4 +42,4 @@ lambda a, b, /, c, d, *, e, f: a
 lambda a, b, /, c, d, *args, e, f, **kwargs: args
 
 lambda a, b=1, /, c=2, d=3, *, e=4, f=5: 1
-                   
+                    
