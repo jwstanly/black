@@ -42,4 +42,4 @@ def function(a: int = 42):
     #    There's a NBSP + 3 spaces before
     #    And 4 spaces on the next line
     pass
-                        
+                         

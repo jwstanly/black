@@ -53,4 +53,4 @@ class DebugVisitor(Visitor[T]):
         if isinstance(code, str):
             code = lib2to3_parse(code)
         list(v.visit(code))
-                        
+                         

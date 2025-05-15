@@ -57,4 +57,4 @@ class NormalClass:
     def func_for_testing(self, first, second):
         sum = first + second
         return sum
-                        
+                         
