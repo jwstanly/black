@@ -202,4 +202,4 @@ def initialize(cache_dir: Union[str, "os.PathLike[str]", None] = None) -> None:
         "blib2to3", _PATTERN_GRAMMAR_FILE, cache_dir
     )
     pattern_symbols = _pattern_symbols(pattern_grammar)
-  
+   

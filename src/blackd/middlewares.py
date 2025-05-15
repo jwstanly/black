@@ -33,4 +33,4 @@ def cors(allow_headers: Iterable[str]) -> Middleware:
         return resp
 
     return impl
-  
+   
