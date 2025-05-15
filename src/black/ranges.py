@@ -520,4 +520,4 @@ def _find_lines_mapping_index(
             return index
         index += 1
     return index
-             
+              

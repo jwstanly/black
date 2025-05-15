@@ -22,4 +22,4 @@ jobs:
           grep -Pz "\((\n\s*)?#${{ github.event.pull_request.number }}(\n\s*)?\)" CHANGES.md || \
           (echo "Please add '(#${{ github.event.pull_request.number }})' change line to CHANGES.md (or if appropriate, ask a maintainer to add the 'skip news' label)" && \
           exit 1)
-             
+              

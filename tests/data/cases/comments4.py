@@ -92,4 +92,4 @@ def foo3(list_a, list_b):
         )
         .filter(User.xyz.is_(None))
     )
-             
+              
