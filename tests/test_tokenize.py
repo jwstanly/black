@@ -105,4 +105,4 @@ if __name__ == "__main__":
     text = f"assert_tokenizes({code!r}, {tokens!r})"
     text = black.format_str(text, mode=black.Mode())
     print(textwrap.indent(text, "    "))
-           
+            

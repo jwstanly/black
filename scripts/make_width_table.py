@@ -64,4 +64,4 @@ WIDTH_TABLE: Final[list[tuple[int, int, int]]] = [
 
 if __name__ == "__main__":
     main()
-           
+            
