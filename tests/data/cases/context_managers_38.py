@@ -52,4 +52,4 @@ with mock.patch.object(
     self.my_runner, "second_method", autospec=True, return_value="foo"
 ):
     pass
-   
+    

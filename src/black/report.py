@@ -105,4 +105,4 @@ class Report:
             s = "s" if self.failure_count > 1 else ""
             report.append(style(f"{self.failure_count} file{s} {failed}", fg="red"))
         return ", ".join(report) + "."
-   
+    

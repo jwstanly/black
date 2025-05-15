@@ -18,4 +18,4 @@
   require_serial: true
   types_or: [python, pyi, jupyter]
   additional_dependencies: [".[jupyter]"]
-   
+    

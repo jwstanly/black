@@ -108,4 +108,4 @@ jobs:
 
       - name: Format ourselves
         run: python -m black --check src/ tests/
-   
+    
