@@ -226,4 +226,4 @@ for line in opmap_raw.splitlines():
     if line:
         op, name = line.split()
         opmap[op] = getattr(token, name)
-     
+      

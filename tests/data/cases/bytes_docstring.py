@@ -31,4 +31,4 @@ def triple_quoted_bytes2():
 
 
 def capitalized_bytes():
-    b" NOT A DOCSTRING"     
+    b" NOT A DOCSTRING"      
